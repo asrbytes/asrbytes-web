@@ -1,17 +1,32 @@
-ASRBytes — versión revisada para GitHub Pages
+ASRBytes — Web corporativa multipágina
+========================================
 
-SUBIR A GITHUB
-1. Abre el repositorio asrbytes/asrbytes-web.
-2. En la rama main, pulsa Add file > Upload files.
-3. Sube TODOS los archivos de esta carpeta (no la carpeta contenedora ni el ZIP).
-4. Pulsa Commit changes.
-5. En Settings > Pages, comprueba que la publicación usa la rama main y la carpeta / (root).
-6. Espera a que termine la publicación y revisa https://asrbytes.github.io/asrbytes-web/.
+PÁGINAS
+- index.html: portada e introducción al negocio.
+- servicios/index.html: catálogo de servicios informáticos.
+- pc-a-medida/index.html: ordenadores a medida, montaje y actualización.
+- tarifas/index.html: tarifas actuales de referencia.
+- a-domicilio/index.html: servicio técnico informático a domicilio.
+- contacto/index.html: teléfonos, correos corporativos y formulario que prepara un mensaje de WhatsApp.
 
-Archivos incluidos: index.html, styles.css, logo-asrbytes.png, hero-workstation.jpg, favicon.svg, 404.html y robots.txt.
+RECURSOS COMPARTIDOS
+- styles.css: estilos visuales y adaptación responsive.
+- site.js: menú móvil, formulario de contacto y año del pie.
+- logo-asrbytes.svg, hero-workstation.jpg y favicon.svg: recursos de marca.
 
-NOTAS
-- Mantén todos estos archivos juntos en la raíz del repositorio para que funcionen las rutas de imágenes y estilos.
-- Este paquete no modifica la configuración del dominio asrbytes.es.
-- Antes de lanzar comercialmente la web, revisa precios y condiciones y añade/revisa los avisos legales, privacidad y cookies que correspondan.
-- El formulario prepara un mensaje y abre WhatsApp; no almacena ni envía datos a una base de datos propia.
+NAVEGACIÓN
+Las páginas comparten cabecera, menú, botón de WhatsApp y pie de página. Los enlaces principales llevan a rutas independientes y el CSS/JS se carga desde la raíz del dominio.
+
+CORREOS
+- info@asrbytes.es: consultas generales.
+- soporte@asrbytes.es: asistencia técnica.
+- presupuestos@asrbytes.es: solicitudes de presupuesto.
+
+PUBLICACIÓN
+El sitio usa HTML/CSS/JavaScript estático y está preparado para GitHub Pages con el dominio personalizado asrbytes.es. Mantén el archivo CNAME existente. Revisa la vista previa y el funcionamiento de los enlaces antes de fusionar o desplegar cambios.
+
+FORMULARIO
+El formulario no almacena datos en el sitio: prepara el mensaje y abre WhatsApp para que el usuario lo revise y lo envíe.
+
+REVISIÓN COMERCIAL
+Revisa las tarifas y las condiciones de desplazamiento antes de publicar modificaciones de precios. No se ha dado por confirmada la gratuidad automática del desplazamiento según un mínimo de gasto.
