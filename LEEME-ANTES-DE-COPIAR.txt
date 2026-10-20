@@ -1,0 +1,29 @@
+ASRBytes — Rediseño visual, fase 1 (revisión 2)
+================================================
+
+CONTENIDO DEL PARCHE
+- index.html: página actual rediseñada; las secciones siguen juntas por ahora.
+- styles.css: diseño responsive y estilos comunes.
+- logo-asrbytes.svg: versión vectorial escalable del logotipo original, con monitor/herramientas y el nombre ASRBytes.
+- hero-workstation.jpg: imagen principal recuperada de la captura original aprobada, recortada y mejorada para la web.
+- favicon.svg: icono del navegador coordinado con el logotipo.
+
+CÓMO APLICARLO
+1. Guarda una copia de seguridad de la carpeta actual del sitio.
+2. Descomprime el ZIP.
+3. Copia los seis archivos a la raíz del sitio y acepta reemplazar los archivos que ya existan con el mismo nombre.
+4. Añade logo-asrbytes.svg si no existe; index.html lo usa en la cabecera y el pie de página.
+5. Abre index.html localmente y revisa el resultado antes de publicar.
+6. No borres otros recursos o páginas que ya existan en el proyecto.
+
+CAMBIOS DE ESTA REVISIÓN
+- Recupera el estilo del logotipo original: monitor con herramientas, palabra ASRBytes y lema corporativo.
+- Aumenta de forma visible el tamaño de la marca en la cabecera y el pie.
+- Recupera la imagen realista de la primera captura para el bloque de inicio, con iluminación azul y marca visible en el monitor.
+- Sustituye los números de las tarjetas de tarifas por iconos SVG profesionales específicos para cada categoría.
+- Convierte el teléfono de «ASRBytes en tu casa» en un botón/pastilla azul con icono de llamada, enlazado al marcador mediante tel:.
+- Conserva el menú aprobado, el diseño de Servicios y Contacto, y las tres direcciones corporativas: info@asrbytes.es, soporte@asrbytes.es y presupuestos@asrbytes.es.
+- La web sigue siendo una sola página; la separación en páginas independientes se hará después de validar esta fase.
+
+IMPORTANTE
+Este paquete es un parche para aplicar sobre el proyecto existente, no una copia completa de todos los recursos del sitio. Mantén los demás archivos del proyecto. Revisa todas las tarifas y condiciones comerciales antes de publicar.
